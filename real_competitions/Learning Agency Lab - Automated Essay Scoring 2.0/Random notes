@@ -1,0 +1,11 @@
+Random notes
+
+Contents: 1. Imports 2. Load Data 3. Feature Engineering
+3.1. Pre-processing Functions
+removeHTML and dataPreprocessing
+3.2. Paragraph Features
+additional features: - paragraph_len, paragraph_sentence_cnt, paragraph_word_cnt - num. paragraphs with length greater than specific values (50, 75, ..., 600, 700) - num. paragraphs with lengths less than specific values - max, mean, min, first and last of the following: paragraph_len, paragraph_sentence_cnt, paragraph_word_cnt
+3.3. Sentence Features
+additional features: - sentence length (character length), sentence word count (split by ' ') - num. sentences with length greater than specific values (15, 50, ... 250, 300) - max, mean, min, first, last of the following: sentence_len, sentence_word_cnt
+3.4. Word Features
+3.5. TF-IDF Features 4. Train
