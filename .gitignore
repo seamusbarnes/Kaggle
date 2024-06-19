@@ -2,6 +2,7 @@
 playground_series/s04e04_regression_with_an_abalone_dataset/data/
 playground_series/s04e05_regression_with_a_flood_prediction_dataset/data/
 playground_series/s04e06_classification_with_an_academic_success_dataset/data/
+*/catboost_info/
 */data/
 *.pkl
 *.csv
